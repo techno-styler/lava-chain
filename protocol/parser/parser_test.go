@@ -563,7 +563,6 @@ func TestParseBlockFromParams(t *testing.T) {
 			},
 			expected: spectypes.LATEST_BLOCK,
 		},
-
 		{
 			name: "generic_parser_no_generic_parser",
 			rpcInput: &RPCInputTest{
